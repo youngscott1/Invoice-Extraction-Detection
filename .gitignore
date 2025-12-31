@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+env/
+
+# Flask
+instance/
+*.log
+
+# OCR / Temp files
+temp/
+uploads/
+outputs/
+*.csv
+*.pdf
+
+# Node / React
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build files
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
